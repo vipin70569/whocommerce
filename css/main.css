@@ -1,0 +1,263 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url(//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto';
+
+ }
+
+ .circular-std {
+     font-family: "Circular Std Bold";
+ }
+
+ .roboto {
+     font-family: 'Roboto';
+ }
+
+
+
+ .container {
+     max-width: 1920px !important;
+ }
+
+ /* font-size */
+ .fs-12 {
+     font-size: 12px;
+ }
+
+ .fs-14 {
+     font-size: 14px;
+ }
+
+ .fs-18 {
+     font-size: 18px;
+ }
+
+ .fs-20 {
+     font-size: 20px;
+ }
+
+ .fs-22 {
+     font-size: 22px;
+ }
+
+ .fs-25 {
+     font-size: 25px;
+ }
+
+ .fs-26 {
+     font-size: 26.7px;
+ }
+
+ .fs-36 {
+     font-size: 36px;
+ }
+
+ .fs-55 {
+     font-size: 55px;
+ }
+
+ .fs-85 {
+     font-size: 85px;
+ }
+
+ /* // font-wieght */
+ .fw-400 {
+     font-weight: 400;
+ }
+
+ .fw-500 {
+     font-weight: 500;
+ }
+
+ .fw-600 {
+     font-weight: 600;
+ }
+
+ .fw-700 {
+     font-weight: 700;
+ }
+
+ .leading-52 {
+     line-height: 52px;
+ }
+
+ .mt--2 {
+     margin-top: -2px;
+ }
+
+ /* radious */
+ .rounded-5 {
+     border-radius: 5px;
+ }
+
+ /* color */
+ .bg-blue {
+     background-color: #5F37EF;
+ }
+
+ .color-94a2b3 {
+     color: #94A2B3;
+ }
+
+ .color-272d4e {
+     color: #272D4E;
+ }
+
+ .color-299ef3 {
+     color: #299ef3;
+ }
+
+ .bg-70c217 {
+     background-color: #70C217;
+ }
+
+ .bg-9A7DFf {
+     background-color: #7854F7;
+     ;
+
+ }
+
+ /* nav-section */
+ .nav-hovers {
+     display: inline-block;
+     position: relative;
+ }
+
+ .nav-hovers::before {
+     position: absolute;
+     content: "";
+     width: 80%;
+     height: 3px;
+     border-radius: 20px;
+     background-color: black;
+     bottom: 0;
+     left: auto;
+     right: auto;
+     visibility: hidden;
+     transform: scaleX(0);
+
+ }
+
+ .nav-hovers:hover {
+     transform: scaleX(1);
+     color: black !important;
+     transition: 0.5s;
+     visibility: visible;
+ }
+
+ /* ....hero- section..... */
+
+ .hero-section {
+     background-image: url(../assets/Vector\ \ W.svg),
+         linear-gradient(180deg,
+             #e5efff 0%,
+             rgba(229, 239, 255, 0.262661) 83.7%,
+             rgba(229, 239, 255, 0) 100%);
+     background-repeat: no-repeat;
+     background-position: top right;
+
+ }
+
+ .w-img {
+     right: 0%;
+ }
+
+ .max-w716 {
+     max-width: 716px;
+ }
+
+ /* ....hero-2 section.. */
+
+
+ /* ....main...... */
+ .bg-svg {
+     background-image: url(../assets/Rectangle\ 234bg-svg.png);
+     background-repeat: no-repeat;
+ }
+
+ .devlop {
+     z-index: 2;
+ }
+
+ .small-circle {
+     position: absolute;
+     right: 60%;
+     top: 20%;
+ }
+
+ .big-circle {
+     z-index: -1;
+     position: absolute;
+     right: 30%;
+     bottom: -20%;
+ }
+
+ .max-w480 {
+     max-width: 480px;
+ }
+
+ .woo {
+     background-image: url(../assets/woo.png);
+     background-repeat: no-repeat;
+     background-position: top right;
+
+ }
+
+ /* ...main section... */
+ .max-w660 {
+     max-width: 660px;
+ }
+
+ .max-w855 {
+     max-width: 884px;
+ }
+
+ .cards {
+     margin-top: 14%;
+ }
+
+ .people {
+     z-index: -1;
+ }
+
+ /* .....footer... */
+
+
+ .border-white {
+     border-bottom: 1px solid white;
+ }
+
+ /* griddemo */
+ .d-grid {
+     display: grid;
+     grid-template-rows: repeat(2, auto);
+     grid-gap: none;
+     margin: 0;
+     padding: 0;
+ }
+
+ .negative-mt-0 {
+     margin-top: -2px;
+ }
+
+ /* .......sibarbar.... */
+ .h-200 {
+     height: 200px;
+ }
+
+
+ .vh-100 {
+     height: 100vh;
+     top: 0;
+     right: 0;
+     transition: 0.5s ease-in-out;
+ }
+
+ .w-300 {
+     width: 300px;
+ }
